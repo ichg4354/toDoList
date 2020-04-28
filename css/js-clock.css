@@ -1,0 +1,12 @@
+#js-clock{
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.js-input, .greetings{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
