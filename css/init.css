@@ -16,3 +16,20 @@
     justify-content: center;
     height: 100vh;
 }
+img{
+    width: 100vh;
+    height: 100vh;
+}
+
+
+@media (max-width: 600px){
+    #js-clock{
+        font-weight: 700;
+        font-size: 60px;
+        position: relative;
+        bottom: 10px;
+    }
+    .js-greetings{
+        font-size: 25px;
+    }
+}
