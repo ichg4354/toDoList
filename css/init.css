@@ -1,0 +1,18 @@
+@import '../css/js-clock.css';
+@import '../css/js-greetings.css';
+@import '../css/js-todo.css';
+@import '../css/js-weather.css';
+
+*{
+    font-family: monospace;
+    text-align: center;
+    color: ghostwhite;
+    font-style: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

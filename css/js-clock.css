@@ -6,6 +6,9 @@ body{
 #js-clock{
     font-weight: 700;
     font-size: 100px;
+    position: relative;
+    bottom: 10px;
+    
 }
 
 .js-input, .greetings{

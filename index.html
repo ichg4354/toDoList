@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="css/js-clock.css" rel="stylesheet">
-</head>
-<body>
-    <div id="js-clock">
+    <link href="css/init.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="js-clock">
         00:00
+      </div>
+      <form class="js-input input">
+        <input type="text" placeholder="Whats ur name" />
+      </form>
+      <h4 class="js-greetings"></h4>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="what to do?" />
+      </form>
+      <ul class="js-todo"></ul>
+      <span class="weather_container"></span>
     </div>
-    <form class="js-input">
-        <input type="text" placeholder="Whats ur name">
-    </form>
-    <h4 class="js-greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="what to do?">
-    </form>
-    <ul class="js-todo">
-    </ul>
-    <script src='js/js.clock.js'></script>
+    <script src="js/js.clock.js"></script>
     <script src="js/greetings.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/background.js"></script>
     <script src="js/weather.js"></script>
-</body>
+  </body>
 </html>

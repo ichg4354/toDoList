@@ -1,0 +1,14 @@
+input{
+    width: 200px;
+    height: 30px;
+    padding: 10px 5px;
+    font-size: large;
+    border-radius: 10px;
+    opacity: 60%;
+    text-decoration: none;
+    outline: none;
+}
+
+.js-greetings{
+    font-size: 50px;
+}
